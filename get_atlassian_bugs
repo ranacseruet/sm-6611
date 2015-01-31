@@ -8,11 +8,11 @@ from musette import environ
 
 def readConfig(filePath):
     environ.read(filePath)
-    url = environ.str("url")
+    proj = environ.str("project_tag")
     dir = environ.str("root_directory")
     start = environ.str("bug_start")
     end = environ.str("bug_end")
-    return url, dir, int(start), int(end)
+    return proj, dir, int(start), int(end)
 
 def getRawContent(url):
     content = urllib2.urlopen(url).read()
@@ -31,10 +31,10 @@ if __name__ == '__main__':
         print "config file path not given"
         os._exit(0)
 
-    url, dir, start, end = readConfig(sys.argv[1])
+    proj, dir, start, end = readConfig(sys.argv[1])
 
     for x in range(start, end):
-        content = getRawContent(url+"/browse/WEBSITE-"+str(x)+"?jql=")
+        content = getRawContent("https://"+proj+".atlassian.net"+"/browse/WEBSITE-"+str(x)+"?jql=")
         writeToFile(dir+"/bug-"+str(x)+".html", content)
         time.sleep(5)
 
