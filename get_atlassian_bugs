@@ -3,6 +3,7 @@
 import os
 import sys
 import urllib2
+import time
 from musette import environ
 
 def readConfig(filePath):
@@ -11,7 +12,7 @@ def readConfig(filePath):
     dir = environ.str("root_directory")
     start = environ.str("bug_start")
     end = environ.str("bug_end")
-    return url, dir, start, end
+    return url, dir, int(start), int(end)
 
 def getRawContent(url):
     content = urllib2.urlopen(url).read()
@@ -31,6 +32,9 @@ if __name__ == '__main__':
         os._exit(0)
 
     url, dir, start, end = readConfig(sys.argv[1])
-    content = getRawContent(url+"/browse/WEBSITE-"+start+"?jql=")
-    writeToFile(dir+"/bug-"+start+".html", content)
+
+    for x in range(start, end):
+        content = getRawContent(url+"/browse/WEBSITE-"+str(x)+"?jql=")
+        writeToFile(dir+"/bug-"+str(x)+".html", content)
+        time.sleep(5)
 
