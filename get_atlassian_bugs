@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
     for x in range(start, end):
         content = getRawContent("https://"+proj+".atlassian.net"+"/browse/WEBSITE-"+str(x)+"?jql=")
-        writeToFile(dir+"/bug-"+str(x)+".html", content)
+        writeToFile(dir+"/"+str(x), content)
         waitTime = random.randint(1, 60)
         print 'bug ',x,' data collected. Now will wait ', waitTime,' seconds'
         time.sleep(waitTime)
