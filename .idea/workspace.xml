@@ -1,154 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89c0e382-684e-4ea1-83d5-d3a18c5aa78a" name="Default" comment="* part 2 updated as per new requirement.">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/KernelAdiutor.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/app.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/libs/RootTools.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/proguard-rules.pro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/androidTest/java/com/grarak/kerneladiutor/ApplicationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/ic_launcher-web.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/bvalosek/cpuspy/CpuSpyApp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/bvalosek/cpuspy/CpuStateMonitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/cardview/BaseCardView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/cardview/HeaderCardView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/BootReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/PathReaderActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/TextActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/CardViewItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/CheckBoxCardItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/DAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/EditTextCardView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/ListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/PopupCardItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/RecyclerViewFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/ScrimInsetsFrameLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/SeekBarCardView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/information/FrequencyTableFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/information/KernelInformationFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/BatteryFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/CPUFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/CPUVoltageFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/GPUFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/IOFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/KSMFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/LMKFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/MiscControlsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/ScreenFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/SoundFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/VMFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/WakeFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/other/AboutUsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/tools/BuildpropFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/Utils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/database/DBAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/database/SysDB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/Battery.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/CPU.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/CPUVoltage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/GPU.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/IO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/Info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/KSM.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/LMK.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/Misc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/Screen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/Sound.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/VM.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/Wake.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/root/Control.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/root/RootUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/tools/Buildprop.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/anim/bottom_to_top.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/anim/top_to_bottom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-hdpi/drawer_shadow.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-hdpi/ic_backup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-hdpi/ic_drawer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-hdpi/ic_pen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-hdpi/ic_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-mdpi/drawer_shadow.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-mdpi/ic_backup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-mdpi/ic_drawer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-mdpi/ic_pen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-mdpi/ic_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-v21/no_highlight.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xhdpi/ic_backup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xhdpi/ic_drawer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xhdpi/ic_pen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xhdpi/ic_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xxhdpi/drawer_shadow.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xxhdpi/ic_backup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xxhdpi/ic_drawer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xxhdpi/ic_pen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xxhdpi/ic_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable/bg_header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable/no_highlight.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable/searchview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/app_license_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/base_cardview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/checkbox_cardview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/coreview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/fragment_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/frequency_table_fragment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/global_adjustment_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/header_cardview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/header_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/inner_cardview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/list_header.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/path_read_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/popup_cardview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/recyclerview_vertical.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/seekbar_cardview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/state_row.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/menu/build_prop_menu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/menu/cpu_voltage_menu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/menu/frequency_table_menu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values-v21/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values/arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values/attrs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/xml/searchable.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/gradle.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/settings.gradle" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api.py" afterPath="$PROJECT_DIR$/get_contributor" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/repos" afterPath="$PROJECT_DIR$/data/repos" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/bug_conf" afterPath="$PROJECT_DIR$/configs/bug_conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_atlassian_bugs" afterPath="$PROJECT_DIR$/get_atlassian_bugs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="89c0e382-684e-4ea1-83d5-d3a18c5aa78a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hello-world.iws" />
@@ -192,21 +46,21 @@
       </file>
       <file leaf-file-name="get_atlassian_bugs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_atlassian_bugs">
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5" vertical-offset="0" max-vertical-offset="750">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="750">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_contributor" pinned="false" current-in-tab="true">
+      <file leaf-file-name="get_contributor" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_contributor">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6969697" vertical-offset="0" max-vertical-offset="525">
+            <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="525">
               <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="e#44#69#0" expanded="true" />
@@ -215,10 +69,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="725">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="bug_conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configs/bug_conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
               <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
@@ -248,6 +115,7 @@
         <option value="$PROJECT_DIR$/api.py" />
         <option value="$PROJECT_DIR$/get_atlassian_bugs" />
         <option value="$PROJECT_DIR$/get_contributor" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -330,6 +198,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -476,6 +345,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -497,9 +369,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -545,6 +414,20 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hello-world" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -563,20 +446,6 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="hello-world" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <list size="2">
@@ -619,7 +488,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422724811058</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="* part 3 finalized.&#10;* randomize waiting time in part 3.&#10;">
+      <created>1422815327892</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1422815327892</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -627,26 +502,26 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33034572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33034572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17668097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1788269" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822478" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -667,7 +542,8 @@
     <MESSAGE value="Initial version:&#10;- Part 1 completed.&#10;- Part 2 almost.&#10;TODO: Part 3" />
     <MESSAGE value="Initial version:&#10;- Part 3 completed." />
     <MESSAGE value="* part 2 updated as per new requirement." />
-    <option name="LAST_COMMIT_MESSAGE" value="* part 2 updated as per new requirement." />
+    <MESSAGE value="* part 3 finalized.&#10;* randomize waiting time in part 3.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="* part 3 finalized.&#10;* randomize waiting time in part 3.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -685,14 +561,64 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_atlassian_bugs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="750">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_contributor">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="525">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#44#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/bug_conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_git">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="960">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="e#23#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_atlassian_bugs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_contributor">
@@ -724,14 +650,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_atlassian_bugs">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_contributor">
@@ -763,14 +689,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_atlassian_bugs">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/configs/bug_conf">
@@ -896,24 +822,35 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_atlassian_bugs">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5" vertical-offset="0" max-vertical-offset="750">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="750">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_contributor">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6969697" vertical-offset="0" max-vertical-offset="525">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding>
             <element signature="e#44#69#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="725">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
