@@ -2,7 +2,7 @@
 
 __author__ = 'Rana'
 
-from github import Github
+from github import Github, UnknownObjectException
 import time
 import sys
 import os
@@ -16,10 +16,11 @@ if repo == '':
     repo = 'python'
 print user, ' ', repo
 g = Github()
-repo = g.get_repo(user+'/'+repo)
-if repo is None:
-    print 'Repository no found, please check spelling'
-    os.exit(0)
+try:
+    repo = g.get_repo(user+'/'+repo)
+except UnknownObjectException as err:
+    print 'repo not found', err
+    os._exit(0)
 
 contributors = repo.get_contributors()
 for c in contributors:
