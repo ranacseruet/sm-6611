@@ -1,4 +1,3 @@
-url = https://hibernate.atlassian.net
 project_tag = hibernate
 bug_start = 60
 bug_end = 70

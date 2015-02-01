@@ -1,148 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89c0e382-684e-4ea1-83d5-d3a18c5aa78a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/for_each_ref_with_path_component" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/index" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/index_merge" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/data/repos" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/builder/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/index/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/objects/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/objects/submodule/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/refs/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/repo/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/lib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/musette/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/musette/_environ.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/builder/_html5lib.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/builder/_htmlparser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/builder/_lxml.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/lib/asserts.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/.idea/assignment-1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/index/base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/objects/base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/objects/submodule/base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/repo/base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/blame" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/objects/blob.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/configs/bug_conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/cat_file_blob" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/cat_file_blob_nl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/cat_file_blob_size" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/cmd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/objects/commit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/musette/data/common.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/musette/compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/dammit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/db.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/diagnose.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/diff.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/diff_2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/diff_2f" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/diff_f" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/diff_i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/diff_mode_only" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/diff_new_mode" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/diff_numstat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/diff_p" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/diff_rename" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/diff_tree_numstat_root" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/element.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/musette/data/env.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/exc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/index/fun.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/objects/fun.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/repo/fun.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/get_atlassian_bugs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/get_git" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/configs/git_conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/git_config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/git_config_global" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/refs/head.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/lib/helper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/musette/interpolation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/performance/lib.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/refs/log.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/ls_tree_a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/ls_tree_b" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/ls_tree_commit" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/odict.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/refs/reference.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/reflog_HEAD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/reflog_invalid_date" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/reflog_invalid_email" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/reflog_invalid_newsha" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/reflog_invalid_oldsha" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/reflog_invalid_sep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/reflog_master" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/remote.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/refs/remote.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/rev_list" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/rev_list_bisect_all" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/rev_list_commit_diffs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/rev_list_commit_idabbrev" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/rev_list_commit_stats" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/rev_list_count" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/rev_list_delta_a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/rev_list_delta_b" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/rev_list_single" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/rev_parse" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/objects/submodule/root.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/fixtures/show_empty_commit" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/refs/symbolic.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/objects/tag.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/refs/tag.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/musette/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_actor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_blob.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/tests/test_builder_registry.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_commit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/performance/test_commit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_db.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_diff.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/tests/test_docs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/musette/data/test_env.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_fun.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_git.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/tests/test_html5lib.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/tests/test_htmlparser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_index.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/tests/test_lxml.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/performance/test_odb.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_reflog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_refs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_remote.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_repo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/tests/test_soup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_stats.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/performance/test_streams.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_submodule.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/tests/test_tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/test_util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/test/performance/test_utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/bs4/testing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/objects/tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/index/typ.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/index/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/objects/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/git/objects/submodule/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../assignment-1/.idea/workspace.xml" />
+    <list default="true" id="89c0e382-684e-4ea1-83d5-d3a18c5aa78a" name="Default" comment="* part 2 updated as per new requirement.">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/KernelAdiutor.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/app.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/libs/RootTools.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/androidTest/java/com/grarak/kerneladiutor/ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/ic_launcher-web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/bvalosek/cpuspy/CpuSpyApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/bvalosek/cpuspy/CpuStateMonitor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/cardview/BaseCardView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/cardview/HeaderCardView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/BootReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/PathReaderActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/TextActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/CardViewItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/CheckBoxCardItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/DAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/EditTextCardView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/ListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/PopupCardItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/RecyclerViewFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/ScrimInsetsFrameLayout.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/elements/SeekBarCardView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/information/FrequencyTableFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/information/KernelInformationFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/BatteryFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/CPUFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/CPUVoltageFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/GPUFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/IOFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/KSMFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/LMKFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/MiscControlsFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/ScreenFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/SoundFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/VMFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/kernel/WakeFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/other/AboutUsFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/fragments/tools/BuildpropFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/Constants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/database/DBAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/database/SysDB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/Battery.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/CPU.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/CPUVoltage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/GPU.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/IO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/Info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/KSM.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/LMK.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/Misc.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/Screen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/Sound.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/VM.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/kernel/Wake.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/root/Control.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/root/RootUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/java/com/grarak/kerneladiutor/utils/tools/Buildprop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/anim/bottom_to_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/anim/top_to_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-hdpi/drawer_shadow.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-hdpi/ic_backup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-hdpi/ic_drawer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-hdpi/ic_pen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-hdpi/ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-mdpi/drawer_shadow.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-mdpi/ic_backup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-mdpi/ic_drawer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-mdpi/ic_pen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-mdpi/ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-v21/no_highlight.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xhdpi/ic_backup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xhdpi/ic_drawer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xhdpi/ic_pen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xhdpi/ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xxhdpi/drawer_shadow.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xxhdpi/ic_backup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xxhdpi/ic_drawer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xxhdpi/ic_pen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable-xxhdpi/ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable/bg_header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable/no_highlight.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/drawable/searchview.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/app_license_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/base_cardview.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/checkbox_cardview.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/coreview.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/fragment_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/frequency_table_fragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/global_adjustment_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/header_cardview.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/header_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/inner_cardview.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/list_header.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/path_read_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/popup_cardview.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/recyclerview_vertical.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/seekbar_cardview.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/layout/state_row.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/menu/build_prop_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/menu/cpu_voltage_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/menu/frequency_table_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values-v21/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values/arrays.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values/attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/app/src/main/res/xml/searchable.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/repos/settings.gradle" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/api.py" afterPath="$PROJECT_DIR$/get_contributor" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/repos" afterPath="$PROJECT_DIR$/data/repos" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/bug_conf" afterPath="$PROJECT_DIR$/configs/bug_conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_atlassian_bugs" afterPath="$PROJECT_DIR$/get_atlassian_bugs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hello-world.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -172,10 +179,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="get_git" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../assignment-1/get_git">
+        <entry file="file://$PROJECT_DIR$/get_git">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="960">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="39" />
               <folding>
                 <element signature="e#23#37#0" expanded="true" />
               </folding>
@@ -183,21 +190,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_atlassian_bugs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../assignment-1/get_atlassian_bugs">
+      <file leaf-file-name="get_atlassian_bugs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_atlassian_bugs">
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25896415" vertical-offset="0" max-vertical-offset="753">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state vertical-scroll-proportion="-0.5" vertical-offset="0" max-vertical-offset="750">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="get_contributor" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/get_contributor">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6969697" vertical-offset="0" max-vertical-offset="525">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding>
+                <element signature="e#44#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="bug_conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../assignment-1/configs/bug_conf">
+        <entry file="file://$PROJECT_DIR$/configs/bug_conf">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -211,7 +233,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../assignment-1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -222,8 +244,10 @@
         <option value="$PROJECT_DIR$/configs/git_conf" />
         <option value="$PROJECT_DIR$/get_git" />
         <option value="$PROJECT_DIR$/get_atlassian_bugs.py" />
-        <option value="$PROJECT_DIR$/get_atlassian_bugs" />
         <option value="$PROJECT_DIR$/configs/bug_conf" />
+        <option value="$PROJECT_DIR$/api.py" />
+        <option value="$PROJECT_DIR$/get_atlassian_bugs" />
+        <option value="$PROJECT_DIR$/get_contributor" />
       </list>
     </option>
   </component>
@@ -279,6 +303,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -291,7 +329,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../assignment-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -313,7 +351,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../assignment-1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -322,7 +360,7 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="$PROJECT_DIR$/../assignment-1" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
       <option name="TEST_TYPE" value="TEST_FOLDER" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
@@ -438,9 +476,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,6 +497,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -507,20 +545,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="hello-world" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -539,6 +563,20 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hello-world" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <list size="2">
@@ -563,6 +601,25 @@
       <option name="number" value="Default" />
       <updated>1401051705340</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial version:&#10;- Part 1 completed.&#10;- Part 2 almost.&#10;TODO: Part 3">
+      <created>1422509897328</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1422509897328</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial version:&#10;- Part 3 completed.">
+      <created>1422689985652</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1422689985652</updated>
+    </task>
+    <task id="LOCAL-00003" summary="* part 2 updated as per new requirement.">
+      <created>1422724811058</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1422724811058</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -570,13 +627,12 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33034572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33034572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1702432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17668097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -584,7 +640,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -606,13 +664,124 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial version:&#10;- Part 1 completed.&#10;- Part 2 almost.&#10;TODO: Part 3" />
+    <MESSAGE value="Initial version:&#10;- Part 3 completed." />
+    <MESSAGE value="* part 2 updated as per new requirement." />
+    <option name="LAST_COMMIT_MESSAGE" value="* part 2 updated as per new requirement." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../assignment-1/get_git">
+    <entry file="file://$PROJECT_DIR$/get_git">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="960">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="e#23#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_atlassian_bugs">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_contributor">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/bug_conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="165">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_git">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="960">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="e#23#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_atlassian_bugs">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_contributor">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/bug_conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_git">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="960">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#23#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_atlassian_bugs">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/bug_conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_git">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1065">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="59" selection-end-column="38" />
@@ -622,7 +791,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/get_atlassian_bugs">
+    <entry file="file://$PROJECT_DIR$/get_atlassian_bugs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -630,15 +799,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/configs/git_conf">
+    <entry file="file://$PROJECT_DIR$/configs/git_conf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/get_git">
+    <entry file="file://$PROJECT_DIR$/get_git">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -648,15 +816,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/configs/git_conf">
+    <entry file="file://$PROJECT_DIR$/configs/git_conf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/get_git">
+    <entry file="file://$PROJECT_DIR$/get_git">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -666,15 +833,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/configs/git_conf">
+    <entry file="file://$PROJECT_DIR$/configs/git_conf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
           <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/get_git">
+    <entry file="file://$PROJECT_DIR$/get_git">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -684,7 +850,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/get_git">
+    <entry file="file://$PROJECT_DIR$/get_git">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -694,7 +860,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/get_git">
+    <entry file="file://$PROJECT_DIR$/get_git">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="450">
           <caret line="21" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -704,37 +870,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/configs/git_conf">
+    <entry file="file://$PROJECT_DIR$/configs/git_conf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/get_git">
+    <entry file="file://$PROJECT_DIR$/get_git">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="960">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="39" />
           <folding>
             <element signature="e#23#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/configs/bug_conf">
+    <entry file="file://$PROJECT_DIR$/configs/bug_conf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../assignment-1/get_atlassian_bugs">
+    <entry file="file://$PROJECT_DIR$/get_atlassian_bugs">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25896415" vertical-offset="0" max-vertical-offset="753">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state vertical-scroll-proportion="-0.5" vertical-offset="0" max-vertical-offset="750">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_contributor">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6969697" vertical-offset="0" max-vertical-offset="525">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#44#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+
+__author__ = 'Rana'
+
+from github import Github
+import time
+import sys
+import os
+
+user = sys.argv[1]
+if user == '':
+    user = 'poise'
+
+repo = sys.argv[2]
+if repo == '':
+    repo = 'python'
+print user, ' ', repo
+g = Github()
+repo = g.get_repo(user+'/'+repo)
+if repo is None:
+    print 'Repository no found, please check spelling'
+    os.exit(0)
+
+contributors = repo.get_contributors()
+for c in contributors:
+    print c.name
+    time.sleep(1)
+
+

@@ -4,6 +4,8 @@ import os
 import sys
 import urllib2
 import time
+import random
+
 from musette import environ
 
 def readConfig(filePath):
@@ -36,5 +38,7 @@ if __name__ == '__main__':
     for x in range(start, end):
         content = getRawContent("https://"+proj+".atlassian.net"+"/browse/WEBSITE-"+str(x)+"?jql=")
         writeToFile(dir+"/bug-"+str(x)+".html", content)
-        time.sleep(5)
+        waitTime = random.randint(1, 60)
+        print 'bug ',x,' data collected. Now will wait ', waitTime,' seconds'
+        time.sleep(waitTime)
 
