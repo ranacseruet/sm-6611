@@ -22,9 +22,8 @@ except UnknownObjectException as err:
     print 'repo not found', err
     os._exit(0)
 
-contributors = repo.get_contributors()
-for c in contributors:
+for c in repo.get_contributors():
     print c.name
-    time.sleep(1)
+    #time.sleep(1)
 
 
