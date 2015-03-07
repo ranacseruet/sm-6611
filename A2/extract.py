@@ -8,13 +8,11 @@ from git import Repo
 
 source_dir = '/Users/Rana/PycharmProjects/sm-6611/A2/data/src/'
 
-
-def saveToDB(file, authors, bugs):
-    #save to db function
-    return
-
-
 def getFileInfo(fileName):
+
+    ##find first created date/time
+    ##
+
     repo = Repo(source_dir)
     commits = list(repo.iter_commits(paths=fileName))
 
@@ -32,6 +30,7 @@ def getFileInfo(fileName):
         if m:
             bugId = m.group(1)
             bugs.add(bugId)
+            ##open bug file and find creator/owner/collaborators
             #print bugId
 
     ##save bugs and authors according to fileName
