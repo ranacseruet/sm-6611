@@ -8,9 +8,9 @@ cursor.execute("DROP TABLE ChromeFiles, ChromeBugs, FileBugs, ChromeAuthors, Fil
 
 cursor.execute("CREATE TABLE IF NOT EXISTS ChromeFiles (id SERIAL PRIMARY KEY, FileName varchar(250) UNIQUE)")
 cursor.execute("CREATE TABLE IF NOT EXISTS ChromeBugs (id SERIAL PRIMARY KEY, BugId integer UNIQUE)")
-cursor.execute("CREATE TABLE IF NOT EXISTS FileBugs (id SERIAL PRIMARY KEY, FileId integer REFERENCES ChromeFiles (id), BugId integer REFERENCES ChromeBugs (id))")
+cursor.execute("CREATE TABLE IF NOT EXISTS FileBugs (id SERIAL PRIMARY KEY, FileId integer REFERENCES ChromeFiles (id), BugId integer REFERENCES ChromeBugs (id), constraint u_file_bug unique (FileId, BugId))")
 cursor.execute("CREATE TABLE IF NOT EXISTS ChromeAuthors (id SERIAL PRIMARY KEY, AuthorName varchar(250) UNIQUE)")
-cursor.execute("CREATE TABLE IF NOT EXISTS FileAuthors (id SERIAL PRIMARY KEY, FileId integer REFERENCES ChromeFiles (id), AuthorId integer REFERENCES ChromeAuthors (id))")
+cursor.execute("CREATE TABLE IF NOT EXISTS FileAuthors (id SERIAL PRIMARY KEY, FileId integer REFERENCES ChromeFiles (id), AuthorId integer REFERENCES ChromeAuthors (id), constraint u_file_authors unique (FileId, AuthorId))")
 conn.commit()
 
 
@@ -71,8 +71,13 @@ def saveFileBug(fileName, bugId):
     bugDBId = getBugId(bugId)
 
     cursor = conn.cursor()
-    cursor.execute("INSERT INTO FileBugs (FileId, BugId) VALUES(%s, %s)",(fileId, bugDBId))
-    conn.commit()
+    try:
+        cursor.execute("INSERT INTO FileBugs (FileId, BugId) VALUES(%s, %s)",(fileId, bugDBId))
+    except pg8000.ProgrammingError:
+        print "skipping duplicate entry"
+    finally:
+        conn.commit()
+
     return
 
 def saveFileAuthor(fileName, authorName):
@@ -81,14 +86,17 @@ def saveFileAuthor(fileName, authorName):
     authorId = getAuthorId(authorName)
 
     cursor = conn.cursor()
-    cursor.execute("INSERT INTO FileAuthors (FileId, AuthorId) VALUES(%s, %s)",(fileId, authorId))
-    conn.commit()
+    try:
+        cursor.execute("INSERT INTO FileAuthors (FileId, AuthorId) VALUES(%s, %s)",(fileId, authorId))
+    except pg8000.ProgrammingError:
+        print "skipping duplicate entry"
+    finally:
+        conn.commit()
     return
-
 
 #print saveFile("test")
 #print saveBug(1234)
-saveFileBug("test.cpp", 1234)
-saveFileAuthor("test2.cpp", "Md Ali Ahsan Rana")
-print getFileId("test3.cpp")
+#saveFileBug("test.cpp", 1234)
+#saveFileAuthor("test2.cpp", "Md Ali Ahsan Rana")
+#print getFileId("test3.cpp")
 #print saveAuthor("Md Ali Ahsan Rana")

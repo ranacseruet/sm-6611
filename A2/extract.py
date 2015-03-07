@@ -3,6 +3,8 @@ __author__ = 'Rana'
 import os
 import re
 
+from link_db import saveFileBug, saveFileAuthor
+
 #installed in system
 from git import Repo
 
@@ -23,6 +25,7 @@ def getFileInfo(fileName):
         #retrieve commit details
         co = repo.commit(commit)
         author = co.author.name
+        saveFileAuthor(fileName, author)
         authors.add(author)
 
         #regex to identify bug
@@ -32,9 +35,10 @@ def getFileInfo(fileName):
             bugs.add(bugId)
             ##open bug file and find creator/owner/collaborators
             #print bugId
+            saveFileBug(fileName, bugId)
 
     ##save bugs and authors according to fileName
-    saveToDB(fileName, authors, bugs)
+    #saveToDB(fileName, authors, bugs)
     print bugs
     return
 
