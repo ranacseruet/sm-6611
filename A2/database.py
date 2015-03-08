@@ -30,23 +30,23 @@ def createTables():
     return
 
 def insert_filename(filename1):
-    cursor.execute('INSERT INTO FileTable (filename) VALUES (%s)', (filename1))
+    cursor.execute('INSERT INTO FileTable (filename) VALUES (%s)', (filename1,))
     conn.commit()
     return
 
 def insert_Author(authorname):
-    cursor.execute("INSERT INTO AuthorTable (authorname) VALUES (%s)", (authorname))
+    cursor.execute("INSERT INTO AuthorTable (authorname) VALUES (%s)", (authorname,))
     conn.commit()
     return
 
 def insert_Bug(bugid):
-    cursor.execute("INSERT INTO BugTable (bugID) VALUES (%s)", (bugid))
-    cursor.commit()
+    cursor.execute("INSERT INTO BugTable (bugID) VALUES (%s)", (bugid,))
+    conn.commit()
     return
 
 def insert_Main_Table(filename1,authorname,bugid):
-    cursor.execute("INSERT INTO BugTable_FileTable(Bug_ID,File_ID,Author_ID) VALUES (%s,%s,%s)", (filename1,authorname,bugid))
-    cursor.commit()
+    cursor.execute("INSERT INTO BugTable_FileTable(Bug_ID,File_ID,Author_ID) VALUES (%s,%s,%s)", (filename1,authorname,bugid,))
+    conn.commit()
     return
 
 #createTables()
@@ -54,4 +54,4 @@ filename="tkk.txt"
 insert_filename(filename)
 insert_Author(authorname)
 insert_Bug(bugid)
-insert_Main_Table(filename,authorname,bugid)
+#insert_Main_Table(filename,authorname,bugid)
