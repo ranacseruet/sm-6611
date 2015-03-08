@@ -20,11 +20,9 @@ cursor = conn.cursor()
 def createTables():
     #cursor.execute("CREATE TABLE t1 (f1 int primary key, f2 int not null, f3 varchar(50) null)")
     cursor.execute("CREATE TABLE FileTable(ID serial NOT NULL PRIMARY KEY, filename varchar(250) null)")
-    cursor.execute("CREATE TABLE AuthorTable (Author_ID VARCHAR(250) primary key, authorname varchar(50) null)")
-    cursor.execute("CREATE TABLE BugTable (ID VARCHAR(250) primary key, bug_ID int not null)")
-    cursor.execute("CREATE TABLE BugTable_FileTable (Bug_ID VARCHAR(250), bug_id int not null)")
-    cursor.execute("CREATE TABLE AuthorTable_FileTable (Bug_ID VARCHAR(250), bug_id int not null)")
-
+    cursor.execute("CREATE TABLE AuthorTable (Author_ID SERIAL primary key, authorname varchar(250) null)")
+    cursor.execute("CREATE TABLE BugTable (ID SERIAL primary key, bug_ID INT not null)")
+    cursor.execute("CREATE TABLE BugTable_FileTable (ID BIGSERIAL UNIQUE NOT NULL , Bug_ID int NOT NULL REFERENCES BugTable(ID), File_ID int not null REFERENCES FileTable(ID), Author_ID INT not null REFERENCES AuthorTable(Author_ID))")
     conn.commit()
     return
 
@@ -49,7 +47,10 @@ def insert_Bug(filename,bugid):
     cursor.execute("INSERT INTO BugTable (filename, bugid) VALUES (%s, %s)", (filename, bugid))
     return
 
-#createTables()
-insert_filename("Hello")
+#def insert_
+
+
+createTables()
+#insert_filename("Hello")
 #insert_Author("kunwar","rattan")
 #insert_Bug("kunwar",1234)
