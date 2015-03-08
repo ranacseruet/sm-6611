@@ -10,7 +10,7 @@ import psycopg
 
 authorname="kunwar"
 bugid=1222
-filename="concordir univeristy"
+filename="mila.txt"
 
 conn = None;
 cursor = None;
@@ -18,13 +18,6 @@ conn = pg8000.connect(database="postgres", user="postgres", password="root", hos
 cursor = conn.cursor()
 
 def createTables():
-    #cursor.execute("CREATE TABLE t1 (f1 int primary key, f2 int not null, f3 varchar(50) null)")
-   #  CREATE SEQUENCE teams_id_seq;
-   # CREATE TABLE teams
-   # (
-   #    id INT NOT NULL DEFAULT NEXTVAL('teams_id_seq'),
-   #    name VARCHAR(90)
-   # );
     cursor.execute("CREATE SEQUENCE FILE_id_seq")
     cursor.execute("CREATE TABLE FileTable(ID INT UNIQUE NOT NULL DEFAULT NEXTVAL('FILE_id_seq'), filename varchar(250) NOT null UNIQUE )")
     cursor.execute("CREATE SEQUENCE Author_id_seq")
@@ -57,6 +50,7 @@ def insert_Main_Table(filename1,authorname,bugid):
     return
 
 #createTables()
+filename="tkk.txt"
 insert_filename(filename)
 insert_Author(authorname)
 insert_Bug(bugid)
