@@ -22,3 +22,7 @@ Hypothesis: Increased number of authors for a source code file results in increa
 
 #Database Diagram
 ![ChromeDB](DB/Chrome-Data-Mining.jpg "ChromeDB")
+
+#Databse Dump
+
+https://dl.dropboxusercontent.com/u/16060416/chrome.dump
