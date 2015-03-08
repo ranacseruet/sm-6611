@@ -4,7 +4,7 @@ import pg8000
 
 conn = pg8000.connect(user="Rana", password="r@n@", database="chrome")
 cursor = conn.cursor()
-cursor.execute("DROP TABLE ChromeFiles, ChromeBugs, FileBugs, ChromeAuthors, FileAuthors")
+#cursor.execute("DROP TABLE ChromeFiles, ChromeBugs, FileBugs, ChromeAuthors, FileAuthors")
 
 cursor.execute("CREATE TABLE IF NOT EXISTS ChromeFiles (id SERIAL PRIMARY KEY, FileName varchar(250) UNIQUE)")
 cursor.execute("CREATE TABLE IF NOT EXISTS ChromeBugs (id SERIAL PRIMARY KEY, BugId integer UNIQUE)")
@@ -13,6 +13,14 @@ cursor.execute("CREATE TABLE IF NOT EXISTS ChromeAuthors (id SERIAL PRIMARY KEY,
 cursor.execute("CREATE TABLE IF NOT EXISTS FileAuthors (id SERIAL PRIMARY KEY, FileId integer REFERENCES ChromeFiles (id), AuthorId integer REFERENCES ChromeAuthors (id), constraint u_file_authors unique (FileId, AuthorId))")
 conn.commit()
 
+
+def isfileProcessed(fileName):
+    cursor = conn.cursor()
+    cursor.execute("SELECT id FROM ChromeFiles WHERE FileName = '"+fileName+"'")
+    result = cursor.fetchone()
+    if(result):
+        return True
+    return False
 
 def getFileId(fileName):
     cursor = conn.cursor()
@@ -74,7 +82,8 @@ def saveFileBug(fileName, bugId):
     try:
         cursor.execute("INSERT INTO FileBugs (FileId, BugId) VALUES(%s, %s)",(fileId, bugDBId))
     except pg8000.ProgrammingError:
-        print "skipping duplicate entry"
+        return
+        #print "skipping duplicate entry"
     finally:
         conn.commit()
 
@@ -89,7 +98,8 @@ def saveFileAuthor(fileName, authorName):
     try:
         cursor.execute("INSERT INTO FileAuthors (FileId, AuthorId) VALUES(%s, %s)",(fileId, authorId))
     except pg8000.ProgrammingError:
-        print "skipping duplicate entry"
+        return
+        #print "skipping duplicate entry"
     finally:
         conn.commit()
     return
@@ -100,3 +110,4 @@ def saveFileAuthor(fileName, authorName):
 #saveFileAuthor("test2.cpp", "Md Ali Ahsan Rana")
 #print getFileId("test3.cpp")
 #print saveAuthor("Md Ali Ahsan Rana")
+#print isfileProcessed("/Users/Rana/PycharmProjects/sm-6611/A2/data/src/WATCHLISTS")
