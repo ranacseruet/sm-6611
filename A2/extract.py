@@ -64,21 +64,21 @@ def startCrawl():
 
         #skip .git directory
         if root.find(".git") >=0:
-            logger.info("skipping .git directory: "+root)
+            print "skipping .git directory: "+root
             continue
-
+        root = root[len(source_dir):]
         for file in files:
             if file[0] == '.':
-                print "file starts with . , skipping: "+file
+                #print "file starts with . , skipping: "+file
                 continue
             fullFilePath = root
-            fullFilePath += "" if (root[len(root)-1] == "/") else "/";
+            fullFilePath += "" if (len(root)<=0 or (root[len(root)-1] == "/")) else "/";
             fullFilePath += file
             #print "trying for file: "+fullFilePath
             totalFiles += 1
 
             if isfileProcessed(fullFilePath):
-                logger.info("file already processed. skipping")
+                print "file already processed. skipping"
                 continue
 
             # retrieve info for file and save to db
@@ -88,11 +88,19 @@ def startCrawl():
                 print "file information not found/not saved: "+str(file)+" Dir: "+root
 
         end = time.time()
-        logger.info(str(curProcessedFiles)+" processed in "+str((end-curTime))+" seconds")
-        logger.info("Total time passed "+str((end-start))+" seconds. Total Files processed: "+str(totalFiles))
-        sessionFiles += curProcessedFiles
-        if sessionFiles > 50:
-            break
+
+        if curProcessedFiles > 0:
+            logger.info(str(curProcessedFiles)+" processed in "+str((end-curTime))+" seconds")
+            logger.info("Total time passed "+str((end-start))+" seconds. Total Files processed: "+str(totalFiles))
+            sessionFiles += curProcessedFiles
+
+        #if sessionFiles > 5:
+        #    break
     return
 
 startCrawl()
+
+'''for root, dirs, files in os.walk(source_dir):
+    root = root[len(source_dir):]
+    print root
+    break'''
