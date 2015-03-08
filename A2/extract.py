@@ -99,8 +99,3 @@ def startCrawl():
     return
 
 startCrawl()
-
-'''for root, dirs, files in os.walk(source_dir):
-    root = root[len(source_dir):]
-    print root
-    break'''
