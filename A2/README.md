@@ -18,3 +18,7 @@ Ownership of source code, to a specific senior, experienced developer.
 Code review by the owner prior merging commit/pull requests to reduce conflicting logic understanding and maintains consistency.
 
 Hypothesis: Increased number of authors for a source code file results in increasing number of issues found
+
+
+#Database Diagram
+![ChromeDB](DB/Chrome-Data-Mining.jpg "ChromeDB")
