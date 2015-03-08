@@ -19,10 +19,20 @@ cursor = conn.cursor()
 
 def createTables():
     #cursor.execute("CREATE TABLE t1 (f1 int primary key, f2 int not null, f3 varchar(50) null)")
-    cursor.execute("CREATE TABLE FileTable(ID serial NOT NULL PRIMARY KEY, filename varchar(250) null)")
-    cursor.execute("CREATE TABLE AuthorTable (Author_ID SERIAL primary key, authorname varchar(250) null)")
-    cursor.execute("CREATE TABLE BugTable (ID SERIAL primary key, bug_ID INT not null)")
-    cursor.execute("CREATE TABLE BugTable_FileTable (ID BIGSERIAL UNIQUE NOT NULL , Bug_ID int NOT NULL REFERENCES BugTable(ID), File_ID int not null REFERENCES FileTable(ID), Author_ID INT not null REFERENCES AuthorTable(Author_ID))")
+   #  CREATE SEQUENCE teams_id_seq;
+   # CREATE TABLE teams
+   # (
+   #    id INT NOT NULL DEFAULT NEXTVAL('teams_id_seq'),
+   #    name VARCHAR(90)
+   # );
+    cursor.execute("CREATE SEQUENCE FILE_id_seq")
+    cursor.execute("CREATE TABLE FileTable(ID INT UNIQUE NOT NULL DEFAULT NEXTVAL('FILE_id_seq'), filename varchar(250) null)")
+    cursor.execute("CREATE SEQUENCE Author_id_seq")
+    cursor.execute("CREATE TABLE AuthorTable (Author_ID INT UNIQUE NOT NULL DEFAULT NEXTVAL('Author_id_seq'), authorname varchar(250) null)")
+    cursor.execute("CREATE SEQUENCE BUG_id_seq")
+    cursor.execute("CREATE TABLE BugTable (BUG_ID INT UNIQUE NOT NULL DEFAULT NEXTVAL('BUG_id_seq'), bugID INT not null)")
+    cursor.execute("CREATE SEQUENCE TABLE_id_seq")
+    cursor.execute("CREATE TABLE BugTable_FileTable (TABLE_ID bigint NOT NULL DEFAULT NEXTVAL('TABLE_id_seq') , Bug_ID int NOT NULL REFERENCES BugTable(BUG_ID), File_ID int not null REFERENCES FileTable(ID), Author_ID INT not null REFERENCES AuthorTable(Author_ID))")
     conn.commit()
     return
 
