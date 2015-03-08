@@ -3,14 +3,9 @@ __author__ = 'india'
 import pg8000
 import psycopg
 
-#bug_id = 0;
-
-
-#cursor = conn.cursor()
-
-authorname="kunwar"
-bugid=1222
-filename="mila.txt"
+authorname="maa211111x"
+bugid=122121
+filename="ad111.txt"
 
 conn = None;
 cursor = None;
@@ -25,7 +20,7 @@ def createTables():
     cursor.execute("CREATE SEQUENCE BUG_id_seq")
     cursor.execute("CREATE TABLE BugTable (BUG_ID INT UNIQUE NOT NULL DEFAULT NEXTVAL('BUG_id_seq'), bugID INT not null UNIQUE)")
     cursor.execute("CREATE SEQUENCE TABLE_id_seq")
-    cursor.execute("CREATE TABLE BugTable_FileTable (TABLE_ID bigint NOT NULL DEFAULT NEXTVAL('TABLE_id_seq') , Bug_ID int NOT NULL REFERENCES BugTable(BUG_ID), File_ID int not null REFERENCES FileTable(ID), Author_ID INT not null REFERENCES AuthorTable(Author_ID))")
+    cursor.execute("CREATE TABLE BugTable_FileTable (TABLE_ID bigint UNIQUE  NOT NULL DEFAULT NEXTVAL('TABLE_id_seq') , Bug_ID int NOT NULL REFERENCES BugTable(BUG_ID), File_ID int not null REFERENCES FileTable(ID), Author_ID INT not null REFERENCES AuthorTable(Author_ID))")
     conn.commit()
     return
 
@@ -45,13 +40,30 @@ def insert_Bug(bugid):
     return
 
 def insert_Main_Table(filename1,authorname,bugid):
-    cursor.execute("INSERT INTO BugTable_FileTable(Bug_ID,File_ID,Author_ID) VALUES (%s,%s,%s)", (filename1,authorname,bugid,))
+    fileID = None
+    authorID = None
+    Bug_ID = None
+    cursor.execute("SELECT ID from FileTable WHERE filename=(%s)",(filename1,))
+    rows = cursor.fetchall()
+    for row in rows:
+       fileID = row[0]
+
+    cursor.execute("SELECT Author_ID from AuthorTable WHERE authorname=(%s)",(authorname,))
+    rows = cursor.fetchall()
+    for row in rows:
+       authorID = row[0]
+
+    cursor.execute("SELECT BUG_ID from BugTable WHERE bugID=(%s)",(bugid,))
+    rows = cursor.fetchall()
+    for row in rows:
+       Bug_ID = row[0]
+
+    cursor.execute("INSERT INTO BugTable_FileTable(Bug_ID,File_ID,Author_ID) VALUES (%s,%s,%s)", (Bug_ID,fileID,authorID,))
     conn.commit()
     return
 
 #createTables()
-filename="tkk.txt"
 insert_filename(filename)
 insert_Author(authorname)
 insert_Bug(bugid)
-#insert_Main_Table(filename,authorname,bugid)
+insert_Main_Table(filename,authorname,bugid)
