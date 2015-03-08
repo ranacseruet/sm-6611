@@ -3,14 +3,24 @@ __author__ = 'india'
 import pg8000
 import psycopg
 
-authorname="maa211111x"
-bugid=122121
-filename="ad111.txt"
+authorname = None
+bugid= None
+filename1= None
+
+
 
 conn = None;
 cursor = None;
 conn = pg8000.connect(database="postgres", user="postgres", password="root", host="localhost")
 cursor = conn.cursor()
+
+def call(filename,authorname,bugid):
+    insert_filename(filename)
+    insert_Author(authorname)
+    insert_Bug(bugid)
+    insert_Main_Table(filename,authorname,bugid)
+    return
+
 
 def createTables():
     cursor.execute("CREATE SEQUENCE FILE_id_seq")
@@ -25,17 +35,17 @@ def createTables():
     return
 
 def insert_filename(filename1):
-    cursor.execute('INSERT INTO FileTable (filename) VALUES (%s)', (filename1,))
+    cursor.execute('INSERT INTO FileTable (filename) SELECT (%s) WHERE NOT EXISTS (SELECT filename FROM FileTable where filename = (%s) )', (filename1,filename1,))
     conn.commit()
     return
 
 def insert_Author(authorname):
-    cursor.execute("INSERT INTO AuthorTable (authorname) VALUES (%s)", (authorname,))
+    cursor.execute('INSERT INTO AuthorTable (authorname) SELECT (%s) WHERE NOT EXISTS (SELECT authorname FROM AuthorTable where authorname = (%s) )', (authorname,authorname,))
     conn.commit()
     return
 
 def insert_Bug(bugid):
-    cursor.execute("INSERT INTO BugTable (bugID) VALUES (%s)", (bugid,))
+    cursor.execute('INSERT INTO BugTable (bugID) SELECT (%s) WHERE NOT EXISTS (SELECT bugID FROM BugTable where bugID = (%s) )', (bugid,bugid,))
     conn.commit()
     return
 
@@ -58,12 +68,8 @@ def insert_Main_Table(filename1,authorname,bugid):
     for row in rows:
        Bug_ID = row[0]
 
-    cursor.execute("INSERT INTO BugTable_FileTable(Bug_ID,File_ID,Author_ID) VALUES (%s,%s,%s)", (Bug_ID,fileID,authorID,))
+    cursor.execute('INSERT INTO BugTable_FileTable (Bug_ID,File_ID,Author_ID) SELECT (%s), (%s), (%s) WHERE NOT EXISTS (SELECT Bug_ID,File_ID,Author_ID FROM BugTable_FileTable where Bug_ID = (%s) AND File_ID = (%s) AND Author_ID = (%s))', (Bug_ID,fileID,authorID,Bug_ID,fileID,authorID,))
     conn.commit()
     return
 
 #createTables()
-insert_filename(filename)
-insert_Author(authorname)
-insert_Bug(bugid)
-insert_Main_Table(filename,authorname,bugid)
