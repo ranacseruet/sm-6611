@@ -2,9 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89c0e382-684e-4ea1-83d5-d3a18c5aa78a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A3/LCOM.py" afterPath="$PROJECT_DIR$/A3/LCOM.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sm-6611.iml" afterPath="$PROJECT_DIR$/.idea/sm-6611.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDatabase.udb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/LICENSE-Apache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/LightQ-Makefile.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/Makefile-Debug.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/Makefile-Release.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/Makefile-impl.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/Makefile-variables.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/Package-Debug.bash" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/Package-Release.bash" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/PerfTest100M.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/TODO.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/admin_cmd.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/async_log_helper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/async_logger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/async_logger_impl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/atomicops.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/base_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/broker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/broker_config.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/broker_manager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/broker_storage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/concurrentqueue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/configurations.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/connection.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/connection_file.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/connection_socket.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/connection_zmq.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/consumer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/file_details.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/file_helper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/file_sinks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/format.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/format.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/formatter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/src/lightq_api.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/lightq_api.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/line_logger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/log.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/log_msg.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/logger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/logger_impl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/monitor_zmq.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/mpmc_bounded_q.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/null_mutex.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/null_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/os.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/ostream_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/pattern_formatter_impl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/picojson.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/producer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/project.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/readerwriterqueue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/registry.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/spdlog.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/spdlog_impl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/stdout_sinks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/syslog_sink.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/utils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/zhelpers.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/zmq.hpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hello-world.iws" />
@@ -38,8 +99,8 @@
       <file leaf-file-name="LCOM.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/A3/LCOM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6155779" vertical-offset="180" max-vertical-offset="629">
-              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.5301508" vertical-offset="231" max-vertical-offset="629">
+              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -528,7 +589,13 @@
       <option name="project" value="LOCAL" />
       <updated>1422821849043</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="* update readme.md">
+      <created>1428102764315</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1428102764315</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -537,11 +604,12 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31811023" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822478" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15433072" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19106881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -549,7 +617,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -805,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/A3/LCOM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6155779" vertical-offset="180" max-vertical-offset="629">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.5301508" vertical-offset="231" max-vertical-offset="629">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
           <folding />
         </state>
       </provider>
