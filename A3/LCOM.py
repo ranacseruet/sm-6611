@@ -30,7 +30,7 @@ def dependsOn(func1, func2):
             fList.append(func.name())
 
     if func2.name() in fList:
-        print(func1.name(), "depends on", func2.name())
+        #print(func1.name(), "depends on", func2.name())
         return True
     else:
         return False
@@ -49,10 +49,10 @@ def getMethodsByFile(file):
                 continue
             if(func1 != func2) & dependsOn(func1, func2):
                 # (a,b) and (b,a) both are being added
-                funcSet = funcSet | {(func1.name(), func2.name())}
+                funcSet = funcSet | set([frozenset([func1.name(), func2.name()])])
 
-    #for pair in funcSet:
-    #    print(pair)
+    for pair in funcSet:
+        print(pair)
 
     return
 
