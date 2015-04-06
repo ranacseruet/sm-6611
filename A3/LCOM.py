@@ -15,7 +15,7 @@ def dependsOn(func1, func2):
 
     #func1 dependents list building is happening everytime unnecessarily
 
-    #TODO check attribute dependency
+    #TODO check attribute sharing
 
     relatedFunctions = func1.ents("","function,method,procedure")
 
@@ -36,7 +36,7 @@ def dependsOn(func1, func2):
         return False
 
 
-def getMethodsByFile(file):
+def getLCOM(file):
 
     functions  = file.ents("","function,method,procedure")
     funcSet = set()
@@ -48,13 +48,37 @@ def getMethodsByFile(file):
             if func2.library() == "Standard":
                 continue
             if(func1 != func2) & dependsOn(func1, func2):
-                # (a,b) and (b,a) both are being added
                 funcSet = funcSet | set([frozenset([func1.name(), func2.name()])])
 
+    graphs = []
     for pair in funcSet:
-        print(pair)
+        #print(pair)
+        if len(graphs) <=0:
+            graphs.append(pair)
+        else:
+            processed = False
+            for graph in graphs:
+                i = graphs.index(graph)
+                if len(graph & pair) > 0:
+                    graph |= pair
+                    graphs[i] = graph
+                    processed = True
+            if not processed:
+                graphs.append(pair)
 
-    return
+    count = 0
+    #LCOM = no of disconnected graphs
+    for graph in graphs:
+        #print(graph)
+        count += len(graph)
+
+    lcom = len(graphs)
+
+    lcom += len(functions) - count
+
+    return lcom
+
+
 
 
 for file in db.ents("File"):
@@ -64,5 +88,5 @@ for file in db.ents("File"):
 
   fileName, fileExtension = os.path.splitext(str(file))
   if fileExtension == ".cpp":
-    getMethodsByFile(file)
+    print("LCOM: ", getLCOM(file))
 
