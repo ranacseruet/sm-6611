@@ -6,7 +6,7 @@ import sys
 import understand
 
 #Open Database
-db = understand.open("/Users/Rana/UnderStandProjects/TestProject.udb")
+db = understand.open("/Users/Rana/UnderStandProjects/Test2.udb")
 
 
 
@@ -79,6 +79,19 @@ def getLCOM(file):
     return lcom
 
 
+def getCBO(file):
+    classes  = file.ents("","Class")
+
+    count = 0
+    for cls in classes:
+        if cls.library() == "Standard":
+            continue
+        count += 1
+        print(file.longname()," : ",cls)
+
+    return count
+
+
 
 
 for file in db.ents("File"):
@@ -88,5 +101,5 @@ for file in db.ents("File"):
 
   fileName, fileExtension = os.path.splitext(str(file))
   if fileExtension == ".cpp":
-    print("LCOM: ", getLCOM(file))
-
+    #print("LCOM: ", getLCOM(file))
+    getCBO(file)
