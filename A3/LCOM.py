@@ -2,22 +2,13 @@ __author__ = 'india'
 
 import os
 import sys
+import datetime
 
 import understand
 
-#Open Database
-db = understand.open("/Users/Rana/UnderStandProjects/Test2.udb")
 
-
-
-
-def dependsOn(func1, func2):
-
-    #func1 dependents list building is happening everytime unnecessarily
-
-    #TODO check attribute sharing
-
-    relatedFunctions = func1.ents("","function,method,procedure")
+def getRelatedFunctions(func):
+    relatedFunctions = func.ents("","function,method,procedure")
 
     if relatedFunctions == None:
         return False
@@ -26,10 +17,19 @@ def dependsOn(func1, func2):
     for func in relatedFunctions:
         if func.library() == "Standard":
             continue
-        if func.name() != func1.name():
+        if func.name() != func.name():
             fList.append(func.name())
 
-    if func2.name() in fList:
+    return fList
+
+
+def dependsOn(func1, func2, func1Related):
+
+    #func1 dependents list building is happening everytime unnecessarily
+
+    #TODO check attribute sharing
+
+    if func2.name() in func1Related:
         #print(func1.name(), "depends on", func2.name())
         return True
     else:
@@ -44,10 +44,11 @@ def getLCOM(file):
     for func1 in functions:
         if func1.library() == "Standard":
             continue
+        func1Related = getRelatedFunctions(func1)
         for func2 in functions:
             if func2.library() == "Standard":
                 continue
-            if(func1 != func2) & dependsOn(func1, func2):
+            if(func1 != func2) & dependsOn(func1, func2, func1Related):
                 funcSet = funcSet | set([frozenset([func1.name(), func2.name()])])
 
     graphs = []
@@ -87,19 +88,33 @@ def getCBO(file):
         if cls.library() == "Standard":
             continue
         count += 1
-        print(file.longname()," : ",cls)
+        #print(file.longname()," : ",cls)
 
     return count
 
 
 
+if __name__ == "__main__":
+    start = datetime.datetime.now()
 
-for file in db.ents("File"):
+    versions = ["34.0.1847.0"]
 
-  if(file.library() == "Standard"):
-      continue
+    for version in versions:
+        #Open Database
+        db = understand.open("/Users/Rana/UnderStandProjects/Chromium-"+version+".udb")
 
-  fileName, fileExtension = os.path.splitext(str(file))
-  if fileExtension == ".cpp":
-    #print("LCOM: ", getLCOM(file))
-    getCBO(file)
+        for file in db.ents("File"):
+
+          if(file.library() == "Standard"):
+              continue
+
+          fileName, fileExtension = os.path.splitext(str(file))
+          if fileExtension == ".cpp" or fileExtension == ".cc" :
+            lcom = getLCOM(file)
+            cbo = getCBO(file)
+
+
+        end = datetime.datetime.now()
+
+        print("total time: ", end-start)
+        db.close()
