@@ -2,70 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89c0e382-684e-4ea1-83d5-d3a18c5aa78a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDatabase.udb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/LICENSE-Apache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/LightQ-Makefile.mk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/Makefile-Debug.mk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/Makefile-Release.mk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/Makefile-impl.mk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/Makefile-variables.mk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/Package-Debug.bash" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/Package-Release.bash" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/PerfTest100M.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/TODO.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/admin_cmd.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/async_log_helper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/async_logger.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/async_logger_impl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/atomicops.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/base_sink.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/broker.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/broker_config.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/broker_manager.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/broker_storage.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/common.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/concurrentqueue.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/configurations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/connection.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/connection_file.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/connection_socket.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/connection_zmq.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/consumer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/file_details.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/file_helper.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/file_sinks.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/format.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/format.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/formatter.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/src/lightq_api.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/lightq_api.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/line_logger.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/log.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/log_msg.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/logger.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/logger_impl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/monitor_zmq.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/mpmc_bounded_q.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/null_mutex.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/null_sink.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/os.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/ostream_sink.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/pattern_formatter_impl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/picojson.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/producer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/nbproject/project.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/readerwriterqueue.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/registry.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/sink.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/spdlog.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/details/spdlog_impl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/stdout_sinks.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/spdlog/sinks/syslog_sink.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/utils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/zhelpers.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LightQ-master/include/thirdparty/zmq.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/A3/pg8000/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/A3/pg8000/_version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/A3/pg8000/core.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/A3/db.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/A3/pg8000/six.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDatabase.udb" afterPath="$PROJECT_DIR$/TestDatabase.udb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hello-world.iws" />
@@ -83,6 +25,7 @@
     <SUITE FILE_PATH="coverage/hello-world$main.coverage" NAME="main Coverage Results" MODIFIED="1421778533569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/assignment-1$LCOM.coverage" NAME="LCOM Coverage Results" MODIFIED="1428102691811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A3" />
     <SUITE FILE_PATH="coverage/hello-world$Unittests_in__Users_Rana_PycharmProjects_hello_world.coverage" NAME="Unittests in /Users/Rana/PycharmProjects/hello-world Coverage Results" MODIFIED="1401051752475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/assignment-1$db.coverage" NAME="db Coverage Results" MODIFIED="1428540346159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A3" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -96,22 +39,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LCOM.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/A3/LCOM.py">
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/A3/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5301508" vertical-offset="231" max-vertical-offset="629">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-              <folding />
+            <state vertical-scroll-proportion="0.51428574" vertical-offset="227" max-vertical-offset="714">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+              <folding>
+                <marker date="1428540343120" expanded="true" signature="339:543" placeholder="CREATE TABLE..Release_Info..." />
+                <marker date="1428540343120" expanded="true" signature="339:543" placeholder="CREATE TABLE..Release_Info..." />
+                <marker date="1428540343120" expanded="true" signature="756:831" placeholder="INSERT INTO ..." />
+                <marker date="1428540343120" expanded="true" signature="756:831" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CBO.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/A3/CBO.py">
+      <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/A2/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="1598">
+              <caret line="44" column="71" selection-start-line="44" selection-start-column="71" selection-end-line="44" selection-end-column="72" />
+              <folding>
+                <element signature="e#22#35#0" expanded="true" />
+                <marker date="1425805638103" expanded="true" signature="519:658" placeholder="CREATE TABLE..FileTable..." />
+                <marker date="1425805638103" expanded="true" signature="733:885" placeholder="CREATE TABLE..AuthorTable..." />
+                <marker date="1425805638103" expanded="true" signature="957:1086" placeholder="CREATE TABLE..BugTable..." />
+                <marker date="1425805638103" expanded="true" signature="1160:1479" placeholder="CREATE TABLE..BugTable_FileTable..." />
+                <marker date="1425805638103" expanded="true" signature="1564:1703" placeholder="INSERT INTO ..." />
+                <marker date="1425805638103" expanded="true" signature="1597:1608" placeholder="SELECT (miss..." />
+                <marker date="1425805638103" expanded="true" signature="1811:1960" placeholder="INSERT INTO ..." />
+                <marker date="1425805638103" expanded="true" signature="1848:1859" placeholder="SELECT (miss..." />
+                <marker date="1425805638103" expanded="true" signature="2062:2190" placeholder="INSERT INTO ..." />
+                <marker date="1425805638103" expanded="true" signature="2091:2102" placeholder="SELECT (miss..." />
+                <marker date="1425805638103" expanded="true" signature="2366:2410" placeholder="SELECT ID fr..FileTable..." />
+                <marker date="1425805638103" expanded="true" signature="2520:2575" placeholder="SELECT Autho..AuthorTable..." />
+                <marker date="1425805638103" expanded="true" signature="2688:2732" placeholder="SELECT BUG_I..BugTable..." />
+                <marker date="1425805638103" expanded="true" signature="2838:3120" placeholder="INSERT INTO ..." />
+                <marker date="1425805638103" expanded="true" signature="2918:2941" placeholder="SELECT (miss..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,6 +108,7 @@
         <option value="$PROJECT_DIR$/A1/get_contributor" />
         <option value="$PROJECT_DIR$/A3/CBO.py" />
         <option value="$PROJECT_DIR$/A3/LCOM.py" />
+        <option value="$PROJECT_DIR$/A3/db.py" />
       </list>
     </option>
   </component>
@@ -213,6 +179,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sm-6611" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -223,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -237,6 +217,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\sm-6611\A3" />
       <recent name="C:\Python34\DLLs" />
       <recent name="$PROJECT_DIR$/configs" />
     </key>
@@ -245,7 +226,7 @@
       <recent name="$PROJECT_DIR$/configs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LCOM">
+  <component name="RunManager" selected="Python.db">
     <configuration default="false" name="Unittests in assignment-1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,6 +286,26 @@
       <module name="sm-6611" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A3/LCOM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sm-6611" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A3/db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -499,16 +500,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in assignment-1" />
       <item index="1" class="java.lang.String" itemvalue="Python.main" />
       <item index="2" class="java.lang.String" itemvalue="Python.LCOM" />
+      <item index="3" class="java.lang.String" itemvalue="Python.db" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.LCOM" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in assignment-1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.db" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LCOM" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in assignment-1" />
       </list>
     </recent_temporary>
   </component>
@@ -600,16 +603,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31811023" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822478" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15433072" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19106881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -617,11 +619,12 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32755905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -653,11 +656,86 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/A3/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1428540343120" expanded="true" signature="339:543" placeholder="CREATE TABLE..Release_Info..." />
+            <marker date="1428540343120" expanded="true" signature="339:543" placeholder="CREATE TABLE..Release_Info..." />
+            <marker date="1428540343120" expanded="true" signature="756:831" placeholder="INSERT INTO ..." />
+            <marker date="1428540343120" expanded="true" signature="756:831" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1598">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="e#22#35#0" expanded="true" />
+            <marker date="1425805638103" expanded="true" signature="519:658" placeholder="CREATE TABLE..FileTable..." />
+            <marker date="1425805638103" expanded="true" signature="733:885" placeholder="CREATE TABLE..AuthorTable..." />
+            <marker date="1425805638103" expanded="true" signature="957:1086" placeholder="CREATE TABLE..BugTable..." />
+            <marker date="1425805638103" expanded="true" signature="1160:1479" placeholder="CREATE TABLE..BugTable_FileTable..." />
+            <marker date="1425805638103" expanded="true" signature="1564:1703" placeholder="INSERT INTO ..." />
+            <marker date="1425805638103" expanded="true" signature="1597:1608" placeholder="SELECT (miss..." />
+            <marker date="1425805638103" expanded="true" signature="1811:1960" placeholder="INSERT INTO ..." />
+            <marker date="1425805638103" expanded="true" signature="1848:1859" placeholder="SELECT (miss..." />
+            <marker date="1425805638103" expanded="true" signature="2062:2190" placeholder="INSERT INTO ..." />
+            <marker date="1425805638103" expanded="true" signature="2091:2102" placeholder="SELECT (miss..." />
+            <marker date="1425805638103" expanded="true" signature="2366:2410" placeholder="SELECT ID fr..FileTable..." />
+            <marker date="1425805638103" expanded="true" signature="2520:2575" placeholder="SELECT Autho..AuthorTable..." />
+            <marker date="1425805638103" expanded="true" signature="2688:2732" placeholder="SELECT BUG_I..BugTable..." />
+            <marker date="1425805638103" expanded="true" signature="2838:3120" placeholder="INSERT INTO ..." />
+            <marker date="1425805638103" expanded="true" signature="2918:2941" placeholder="SELECT (miss..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A3/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1428540343120" expanded="true" signature="339:543" placeholder="CREATE TABLE..Release_Info..." />
+            <marker date="1428540343120" expanded="true" signature="339:543" placeholder="CREATE TABLE..Release_Info..." />
+            <marker date="1428540343120" expanded="true" signature="756:831" placeholder="INSERT INTO ..." />
+            <marker date="1428540343120" expanded="true" signature="756:831" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1598">
+          <caret line="12" column="4" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#22#35#0" expanded="true" />
+            <marker date="1425805638103" expanded="true" signature="519:658" placeholder="CREATE TABLE..FileTable..." />
+            <marker date="1425805638103" expanded="true" signature="733:885" placeholder="CREATE TABLE..AuthorTable..." />
+            <marker date="1425805638103" expanded="true" signature="957:1086" placeholder="CREATE TABLE..BugTable..." />
+            <marker date="1425805638103" expanded="true" signature="1160:1479" placeholder="CREATE TABLE..BugTable_FileTable..." />
+            <marker date="1425805638103" expanded="true" signature="1564:1703" placeholder="INSERT INTO ..." />
+            <marker date="1425805638103" expanded="true" signature="1597:1608" placeholder="SELECT (miss..." />
+            <marker date="1425805638103" expanded="true" signature="1811:1960" placeholder="INSERT INTO ..." />
+            <marker date="1425805638103" expanded="true" signature="1848:1859" placeholder="SELECT (miss..." />
+            <marker date="1425805638103" expanded="true" signature="2062:2190" placeholder="INSERT INTO ..." />
+            <marker date="1425805638103" expanded="true" signature="2091:2102" placeholder="SELECT (miss..." />
+            <marker date="1425805638103" expanded="true" signature="2366:2410" placeholder="SELECT ID fr..FileTable..." />
+            <marker date="1425805638103" expanded="true" signature="2520:2575" placeholder="SELECT Autho..AuthorTable..." />
+            <marker date="1425805638103" expanded="true" signature="2688:2732" placeholder="SELECT BUG_I..BugTable..." />
+            <marker date="1425805638103" expanded="true" signature="2838:3120" placeholder="INSERT INTO ..." />
+            <marker date="1425805638103" expanded="true" signature="2918:2941" placeholder="SELECT (miss..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/A3/LCOM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,15 +743,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/A3/LCOM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +806,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A3/CBO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A3/LCOM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A3/CBO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A3/LCOM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -855,26 +951,78 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A2/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0017889087" vertical-offset="1" max-vertical-offset="1598">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/A3/CBO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+        <state vertical-scroll-proportion="0.028006589" vertical-offset="0" max-vertical-offset="607">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/A3/LCOM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5301508" vertical-offset="231" max-vertical-offset="629">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state vertical-scroll-proportion="-1.6095552" vertical-offset="1317" max-vertical-offset="2125">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A3/pg8000/six.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10421">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/link_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2006">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16803955" vertical-offset="0" max-vertical-offset="1734">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A2/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="1598">
+          <caret line="44" column="71" selection-start-line="44" selection-start-column="71" selection-end-line="44" selection-end-column="72" />
+          <folding>
+            <element signature="e#22#35#0" expanded="true" />
+            <marker date="1425805638103" expanded="true" signature="519:658" placeholder="CREATE TABLE..FileTable..." />
+            <marker date="1425805638103" expanded="true" signature="733:885" placeholder="CREATE TABLE..AuthorTable..." />
+            <marker date="1425805638103" expanded="true" signature="957:1086" placeholder="CREATE TABLE..BugTable..." />
+            <marker date="1425805638103" expanded="true" signature="1160:1479" placeholder="CREATE TABLE..BugTable_FileTable..." />
+            <marker date="1425805638103" expanded="true" signature="1564:1703" placeholder="INSERT INTO ..." />
+            <marker date="1425805638103" expanded="true" signature="1597:1608" placeholder="SELECT (miss..." />
+            <marker date="1425805638103" expanded="true" signature="1811:1960" placeholder="INSERT INTO ..." />
+            <marker date="1425805638103" expanded="true" signature="1848:1859" placeholder="SELECT (miss..." />
+            <marker date="1425805638103" expanded="true" signature="2062:2190" placeholder="INSERT INTO ..." />
+            <marker date="1425805638103" expanded="true" signature="2091:2102" placeholder="SELECT (miss..." />
+            <marker date="1425805638103" expanded="true" signature="2366:2410" placeholder="SELECT ID fr..FileTable..." />
+            <marker date="1425805638103" expanded="true" signature="2520:2575" placeholder="SELECT Autho..AuthorTable..." />
+            <marker date="1425805638103" expanded="true" signature="2688:2732" placeholder="SELECT BUG_I..BugTable..." />
+            <marker date="1425805638103" expanded="true" signature="2838:3120" placeholder="INSERT INTO ..." />
+            <marker date="1425805638103" expanded="true" signature="2918:2941" placeholder="SELECT (miss..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A3/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51428574" vertical-offset="227" max-vertical-offset="714">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <marker date="1428540343120" expanded="true" signature="339:543" placeholder="CREATE TABLE..Release_Info..." />
+            <marker date="1428540343120" expanded="true" signature="339:543" placeholder="CREATE TABLE..Release_Info..." />
+            <marker date="1428540343120" expanded="true" signature="756:831" placeholder="INSERT INTO ..." />
+            <marker date="1428540343120" expanded="true" signature="756:831" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
