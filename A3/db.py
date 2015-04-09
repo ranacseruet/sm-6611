@@ -15,8 +15,8 @@ cursor = conn.cursor()
 
 def createTable():
     cursor.execute("CREATE SEQUENCE FILE_id_seq")
-    cursor.execute("CREATE TABLE Release_Info(ID INT UNIQUE NOT NULL "
-                   "DEFAULT NEXTVAL('FILE_id_seq'), RELEASE varchar(100) NOT NULL ,class_path varchar(250) NOT NULL UNIQUE, LCOM INT NOT NULL, CBO INT NOT NULL ) ")
+    cursor.execute("CREATE TABLE Release_Info(ID BIGINT UNIQUE NOT NULL "
+                   "DEFAULT NEXTVAL('FILE_id_seq'), RELEASE varchar(100) NOT NULL ,class_path varchar(250) NOT NULL, LCOM INT NOT NULL, CBO INT NOT NULL,  CONSTRAINT versionpath UNIQUE(RELEASE, class_path)) ")
     conn.commit()
     return
 
@@ -31,6 +31,6 @@ def insert_Main_Table(release,class_path,lcom,cbo):
     return
 
 
-#createTable()
+createTable()
 
 #SaveToDB(release,class_path, lcom,cbo)
