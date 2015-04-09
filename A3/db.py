@@ -31,6 +31,6 @@ def insert_Main_Table(release,class_path,lcom,cbo):
     return
 
 
-createTable()
+#createTable()
 
 #SaveToDB(release,class_path, lcom,cbo)
