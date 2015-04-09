@@ -1,12 +1,5 @@
 __author__ = 'india'
 
-import os
-import sys
-import datetime
-
-import understand
-
-
 def getRelatedFunctions(func):
     relatedFunctions = func.ents("","function,method,procedure")
 
@@ -78,43 +71,3 @@ def getLCOM(file):
     lcom += len(functions) - count
 
     return lcom
-
-
-def getCBO(file):
-    classes  = file.ents("","Class")
-
-    count = 0
-    for cls in classes:
-        if cls.library() == "Standard":
-            continue
-        count += 1
-        #print(file.longname()," : ",cls)
-
-    return count
-
-
-
-if __name__ == "__main__":
-    start = datetime.datetime.now()
-
-    versions = ["34.0.1847.0"]
-
-    for version in versions:
-        #Open Database
-        db = understand.open("/Users/Rana/UnderStandProjects/Chromium-"+version+".udb")
-
-        for file in db.ents("File"):
-
-          if(file.library() == "Standard"):
-              continue
-
-          fileName, fileExtension = os.path.splitext(str(file))
-          if fileExtension == ".cpp" or fileExtension == ".cc" :
-            lcom = getLCOM(file)
-            cbo = getCBO(file)
-
-
-        end = datetime.datetime.now()
-
-        print("total time: ", end-start)
-        db.close()
