@@ -21,8 +21,8 @@ def dependsOn(func1, func2, func1Related):
     #func1 dependents list building is happening everytime unnecessarily
 
     #TODO check attribute sharing
-    v1 = func1.ents("","Declaration")
-    v2 = func2.ents("","Declaration")
+    v1 = func1.ents("Define","Object")
+    v2 = func2.ents("Define","Object")
 
     if len(list(set(v1) & set(v2))) > 0:
         return True
