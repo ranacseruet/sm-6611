@@ -32,7 +32,7 @@ if __name__ == "__main__":
                 cbo = getCBO(cls)
                 #print("Version: ", version ,"File: ",file.longname()+":"+cls.longname(), " LCOM: ",lcom, " CBO: ", cbo)
                 #DB CALL need to save: version, file, lcom, CBO
-                SaveToDB(version, file.longname(), lcom, cbo)
+                SaveToDB(version, file.longname()+":"+cls.longname(), lcom, cbo)
 
         end = datetime.datetime.now()
         print("total time: ", end-start)
