@@ -4,8 +4,9 @@ import os
 import re
 import logging
 import time
+import datetime
 
-from link_db import saveFileBug, saveFileAuthor, isfileProcessed
+from link_db import saveFileBug, saveFileAuthor, isfileProcessed, updateAuthor, updateFileAuthor
 
 #installed in system
 import git
@@ -31,6 +32,8 @@ def extractAndSaveFileInfo(fileName):
         print commits
         return False
 
+    i = 0
+
     for commit in commits:
         #retrieve commit details
         co = repo.commit(commit)
@@ -46,6 +49,16 @@ def extractAndSaveFileInfo(fileName):
             ##open bug file and find creator/owner/collaborators
             #print bugId
             saveFileBug(fileName, bugId)
+
+        co = repo.commit(commit)
+        author = co.author.name
+        exp = (time.time() - int(co.authored_date))/(3600*24*30)
+
+        updateAuthor(author, int(exp)) #in months
+        if i == len(commits)-1:
+            updateFileAuthor(author, fileName, 1)
+
+        i = i+1
 
     ##save bugs and authors according to fileName
     #saveToDB(fileName, authors, bugs)
@@ -77,15 +90,18 @@ def startCrawl():
             #print "trying for file: "+fullFilePath
             totalFiles += 1
 
-            if isfileProcessed(fullFilePath):
+            '''if isfileProcessed(fullFilePath):
                 print "file already processed. skipping"
-                continue
+                continue'''
 
             # retrieve info for file and save to db
             if extractAndSaveFileInfo(fullFilePath):
                 curProcessedFiles += 1
+                #temporary
+                #break
             else:
                 print "file information not found/not saved: "+str(file)+" Dir: "+root
+
 
         end = time.time()
 
@@ -94,8 +110,8 @@ def startCrawl():
             logger.info("Total time passed "+str((end-start))+" seconds. Total Files processed: "+str(totalFiles))
             sessionFiles += curProcessedFiles
 
-        #if sessionFiles > 5:
-        #    break
+       # if sessionFiles > 1:
+       #     break
     return
 
 startCrawl()

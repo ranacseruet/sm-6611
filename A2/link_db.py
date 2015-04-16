@@ -74,6 +74,14 @@ def saveAuthor(authorName):
     #returning the fileId
     return results[0]
 
+def updateAuthor(authorName, experience):
+    cursor = conn.cursor()
+    cursor.execute("UPDATE ChromeAuthors SET experience=%s WHERE AuthorName=%s AND experience < %s", (experience,authorName,experience,))
+    #results = cursor.fetchone()
+    conn.commit()
+    #returning the fileId
+    return
+
 def saveFileBug(fileName, bugId):
     fileId = getFileId(fileName)
     bugDBId = getBugId(bugId)
@@ -97,6 +105,21 @@ def saveFileAuthor(fileName, authorName):
     cursor = conn.cursor()
     try:
         cursor.execute("INSERT INTO FileAuthors (FileId, AuthorId) VALUES(%s, %s)",(fileId, authorId))
+    except pg8000.ProgrammingError:
+        return
+        #print "skipping duplicate entry"
+    finally:
+        conn.commit()
+    return
+
+def updateFileAuthor(authorName,fileName, isOwner):
+
+    fileId = getFileId(fileName)
+    authorId = getAuthorId(authorName)
+    #print fileId,":",authorId
+    cursor = conn.cursor()
+    try:
+        cursor.execute("UPDATE FileAuthors SET owner=%s WHERE fileid=%s AND authorid=%s",(isOwner, fileId, authorId,))
     except pg8000.ProgrammingError:
         return
         #print "skipping duplicate entry"
